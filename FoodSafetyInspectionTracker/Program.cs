@@ -39,6 +39,10 @@ try
         app.UseExceptionHandler("/Home/Error");
         app.UseHsts();
     }
+    else
+    {
+        app.UseExceptionHandler("/Home/Error");
+    }
 
     app.UseSerilogRequestLogging();
 
