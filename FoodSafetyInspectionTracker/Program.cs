@@ -63,6 +63,13 @@ try
 
     Log.Information("Application configured successfully");
 
+    // Seed data 
+    using (var scope = app.Services.CreateScope())
+    {
+        var context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+        DbInitializer.Seed(context);
+    }
+
     app.Run();
 }
 catch (Exception ex)

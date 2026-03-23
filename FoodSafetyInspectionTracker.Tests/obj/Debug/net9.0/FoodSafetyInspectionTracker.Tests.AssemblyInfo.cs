@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FoodSafetyInspectionTracker.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+79eb46392f5d2d908980a3edd29ebd63e96fdf84")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7420ddf39385dea7a700ad4e16b044b19cd109c")]
 [assembly: System.Reflection.AssemblyProductAttribute("FoodSafetyInspectionTracker.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FoodSafetyInspectionTracker.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

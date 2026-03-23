@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodSafetyInspectionTracker\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Tamires\\source\\oop-s2-2-mvc-76192\\FoodSafetyInspectionTracker\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodSafetyInspectionTracker\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Tamires\\source\\oop-s2-2-mvc-76192\\FoodSafetyInspectionTracker\\Controllers\\ErrorDemoController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodSafetyInspectionTracker\\Controllers\\ErrorDemoController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Tamires\\source\\oop-s2-2-mvc-76192\\FoodSafetyInspectionTracker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodSafetyInspectionTracker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
@@ -18,8 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Tamires\\source\\oop-s2-2-mvc-76192\\FoodSafetyInspectionTracker\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FoodSafetyInspectionTracker\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Tamires\\source\\oop-s2-2-mvc-76192\\FoodSafetyInspectionTracker\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FoodSafetyInspectionTracker\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T23:06:31.485Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,14 +49,27 @@
               "RelativeDocumentMoniker": "FoodSafetyInspectionTracker\\Program.cs",
               "ToolTip": "C:\\Users\\Tamires\\source\\oop-s2-2-mvc-76192\\FoodSafetyInspectionTracker\\Program.cs",
               "RelativeToolTip": "FoodSafetyInspectionTracker\\Program.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-23T22:43:38.42Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "ErrorDemoController.cs",
+              "DocumentMoniker": "C:\\Users\\Tamires\\source\\oop-s2-2-mvc-76192\\FoodSafetyInspectionTracker\\Controllers\\ErrorDemoController.cs",
+              "RelativeDocumentMoniker": "FoodSafetyInspectionTracker\\Controllers\\ErrorDemoController.cs",
+              "ToolTip": "C:\\Users\\Tamires\\source\\oop-s2-2-mvc-76192\\FoodSafetyInspectionTracker\\Controllers\\ErrorDemoController.cs",
+              "RelativeToolTip": "FoodSafetyInspectionTracker\\Controllers\\ErrorDemoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T23:05:57.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Tamires\\source\\oop-s2-2-mvc-76192\\FoodSafetyInspectionTracker\\appsettings.json",
               "RelativeDocumentMoniker": "FoodSafetyInspectionTracker\\appsettings.json",
@@ -43,8 +77,7 @@
               "RelativeToolTip": "FoodSafetyInspectionTracker\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-23T22:42:56.721Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T22:42:56.721Z"
             }
           ]
         }
