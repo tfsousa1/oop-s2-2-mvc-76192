@@ -283,3 +283,15 @@ C:\Users\Tamires\source\oop-s2-2-mvc-76192\FoodSafetyInspectionTracker\obj\Debug
 C:\Users\Tamires\source\oop-s2-2-mvc-76192\FoodSafetyInspectionTracker\obj\Debug\net9.0\FoodSafetyInspectionTracker.pdb
 C:\Users\Tamires\source\oop-s2-2-mvc-76192\FoodSafetyInspectionTracker\obj\Debug\net9.0\FoodSafetyInspectionTracker.genruntimeconfig.cache
 C:\Users\Tamires\source\oop-s2-2-mvc-76192\FoodSafetyInspectionTracker\obj\Debug\net9.0\ref\FoodSafetyInspectionTracker.dll
+C:\Users\Tamires\source\oop-s2-2-mvc-76192\FoodSafetyInspectionTracker\bin\Debug\net9.0\Serilog.dll
+C:\Users\Tamires\source\oop-s2-2-mvc-76192\FoodSafetyInspectionTracker\bin\Debug\net9.0\Serilog.AspNetCore.dll
+C:\Users\Tamires\source\oop-s2-2-mvc-76192\FoodSafetyInspectionTracker\bin\Debug\net9.0\Serilog.Enrichers.Environment.dll
+C:\Users\Tamires\source\oop-s2-2-mvc-76192\FoodSafetyInspectionTracker\bin\Debug\net9.0\Serilog.Enrichers.Process.dll
+C:\Users\Tamires\source\oop-s2-2-mvc-76192\FoodSafetyInspectionTracker\bin\Debug\net9.0\Serilog.Enrichers.Thread.dll
+C:\Users\Tamires\source\oop-s2-2-mvc-76192\FoodSafetyInspectionTracker\bin\Debug\net9.0\Serilog.Extensions.Hosting.dll
+C:\Users\Tamires\source\oop-s2-2-mvc-76192\FoodSafetyInspectionTracker\bin\Debug\net9.0\Serilog.Extensions.Logging.dll
+C:\Users\Tamires\source\oop-s2-2-mvc-76192\FoodSafetyInspectionTracker\bin\Debug\net9.0\Serilog.Formatting.Compact.dll
+C:\Users\Tamires\source\oop-s2-2-mvc-76192\FoodSafetyInspectionTracker\bin\Debug\net9.0\Serilog.Settings.Configuration.dll
+C:\Users\Tamires\source\oop-s2-2-mvc-76192\FoodSafetyInspectionTracker\bin\Debug\net9.0\Serilog.Sinks.Console.dll
+C:\Users\Tamires\source\oop-s2-2-mvc-76192\FoodSafetyInspectionTracker\bin\Debug\net9.0\Serilog.Sinks.Debug.dll
+C:\Users\Tamires\source\oop-s2-2-mvc-76192\FoodSafetyInspectionTracker\bin\Debug\net9.0\Serilog.Sinks.File.dll

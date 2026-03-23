@@ -1,0 +1,45 @@
+2026-03-23 22:49:24.617 +00:00 [INF] Starting FoodSafetyInspectionTracker application
+2026-03-23 22:49:26.135 +00:00 [INF] Application configured successfully
+2026-03-23 22:54:55.345 +00:00 [INF] Starting FoodSafetyInspectionTracker application
+2026-03-23 22:54:55.797 +00:00 [INF] Application configured successfully
+2026-03-23 22:57:20.491 +00:00 [INF] Starting FoodSafetyInspectionTracker application
+2026-03-23 22:57:20.903 +00:00 [INF] Application configured successfully
+2026-03-23 23:01:12.688 +00:00 [INF] Starting FoodSafetyInspectionTracker application
+2026-03-23 23:01:13.075 +00:00 [INF] Application configured successfully
+2026-03-23 23:02:14.291 +00:00 [WRN] Failed to determine the https port for redirect.
+2026-03-23 23:02:14.789 +00:00 [INF] HTTP GET / responded 200 in 501.2896 ms
+2026-03-23 23:02:14.866 +00:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 25.0967 ms
+2026-03-23 23:02:14.867 +00:00 [INF] HTTP GET /js/site.js responded 200 in 23.8237 ms
+2026-03-23 23:02:14.867 +00:00 [INF] HTTP GET /css/site.css responded 200 in 28.0478 ms
+2026-03-23 23:02:14.878 +00:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 200 in 36.3079 ms
+2026-03-23 23:02:14.878 +00:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 200 in 36.4325 ms
+2026-03-23 23:02:14.878 +00:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 200 in 47.8807 ms
+2026-03-23 23:02:15.730 +00:00 [INF] HTTP GET /favicon.ico responded 200 in 26.6420 ms
+2026-03-23 23:02:40.537 +00:00 [INF] HTTP GET / responded 200 in 10.5970 ms
+2026-03-23 23:02:40.605 +00:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 2.9811 ms
+2026-03-23 23:02:40.616 +00:00 [INF] HTTP GET /css/site.css responded 304 in 3.0618 ms
+2026-03-23 23:02:40.617 +00:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 1.6794 ms
+2026-03-23 23:02:40.619 +00:00 [INF] HTTP GET /js/site.js responded 304 in 2.3714 ms
+2026-03-23 23:02:40.631 +00:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 14.7243 ms
+2026-03-23 23:02:40.672 +00:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 56.6568 ms
+2026-03-23 23:02:42.400 +00:00 [INF] HTTP GET /Home/Privacy responded 200 in 11.6244 ms
+2026-03-23 23:02:42.442 +00:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 0.6837 ms
+2026-03-23 23:02:42.446 +00:00 [INF] HTTP GET /css/site.css responded 304 in 0.6904 ms
+2026-03-23 23:02:42.447 +00:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 1.1124 ms
+2026-03-23 23:02:42.448 +00:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 3.1552 ms
+2026-03-23 23:02:42.449 +00:00 [INF] HTTP GET /js/site.js responded 304 in 0.5979 ms
+2026-03-23 23:02:42.450 +00:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 1.9067 ms
+2026-03-23 23:02:44.557 +00:00 [INF] HTTP GET / responded 200 in 1.3552 ms
+2026-03-23 23:02:44.600 +00:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 0.6248 ms
+2026-03-23 23:02:44.611 +00:00 [INF] HTTP GET /css/site.css responded 304 in 0.6647 ms
+2026-03-23 23:02:44.613 +00:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 1.1977 ms
+2026-03-23 23:02:44.613 +00:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 2.1032 ms
+2026-03-23 23:02:44.613 +00:00 [INF] HTTP GET /js/site.js responded 304 in 0.4957 ms
+2026-03-23 23:02:44.614 +00:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 1.0578 ms
+2026-03-23 23:02:47.385 +00:00 [INF] HTTP GET / responded 200 in 1.3850 ms
+2026-03-23 23:02:47.436 +00:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 8.6999 ms
+2026-03-23 23:02:47.438 +00:00 [INF] HTTP GET /css/site.css responded 304 in 1.0531 ms
+2026-03-23 23:02:47.439 +00:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 0.7940 ms
+2026-03-23 23:02:47.439 +00:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.4935 ms
+2026-03-23 23:02:47.439 +00:00 [INF] HTTP GET /js/site.js responded 304 in 0.5431 ms
+2026-03-23 23:02:47.440 +00:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 1.9123 ms

@@ -1,8 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\FoodSafetyInspectionTracker",
-    "\\FoodSafetyInspectionTracker\\Models"
+    "\\FoodSafetyInspectionTracker"
   ],
+  "SelectedNode": "\\FoodSafetyInspectionTracker\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
