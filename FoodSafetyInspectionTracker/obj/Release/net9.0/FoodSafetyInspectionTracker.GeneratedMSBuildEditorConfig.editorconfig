@@ -36,6 +36,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Tamires/source/oop-s2-2-mvc-76192/FoodSafetyInspectionTracker/Views/Premises/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlbWlzZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tamires/source/oop-s2-2-mvc-76192/FoodSafetyInspectionTracker/Views/Premises/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlbWlzZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tamires/source/oop-s2-2-mvc-76192/FoodSafetyInspectionTracker/Views/Premises/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlbWlzZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tamires/source/oop-s2-2-mvc-76192/FoodSafetyInspectionTracker/Views/Premises/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlbWlzZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tamires/source/oop-s2-2-mvc-76192/FoodSafetyInspectionTracker/Views/Premises/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlbWlzZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Tamires/source/oop-s2-2-mvc-76192/FoodSafetyInspectionTracker/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,20 @@
+2026-03-24 00:17:00.173 +00:00 [INF] Starting FoodSafetyInspectionTracker application
+2026-03-24 00:17:01.005 +00:00 [FTL] Application terminated unexpectedly
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args)
+2026-03-24 00:26:17.121 +00:00 [INF] Starting FoodSafetyInspectionTracker application
+2026-03-24 00:26:17.655 +00:00 [INF] Application configured successfully
+2026-03-24 00:26:26.066 +00:00 [WRN] Failed to determine the https port for redirect.
+2026-03-24 00:26:26.592 +00:00 [INF] HTTP GET /Premises responded 200 in 529.5178 ms
+2026-03-24 00:26:26.782 +00:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 17.8547 ms
+2026-03-24 00:26:26.813 +00:00 [INF] HTTP GET /css/site.css responded 304 in 4.0373 ms
+2026-03-24 00:26:26.813 +00:00 [INF] HTTP GET /js/site.js responded 304 in 0.7129 ms
+2026-03-24 00:26:26.814 +00:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 2.2769 ms
+2026-03-24 00:26:26.815 +00:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 3.2009 ms
+2026-03-24 00:26:26.821 +00:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 11.6239 ms
