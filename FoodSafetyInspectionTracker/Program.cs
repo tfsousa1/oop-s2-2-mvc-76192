@@ -25,7 +25,14 @@ try
             builder.Configuration.GetConnectionString("DefaultConnection")));
 
     builder.Services.AddDefaultIdentity<IdentityUser>(options =>
-        options.SignIn.RequireConfirmedAccount = false)
+    {
+        options.SignIn.RequireConfirmedAccount = false;
+        options.Password.RequireDigit = true;
+        options.Password.RequireLowercase = true;
+        options.Password.RequireUppercase = true;
+        options.Password.RequireNonAlphanumeric = true;
+        options.Password.RequiredLength = 8;
+    })
         .AddRoles<IdentityRole>()
         .AddEntityFrameworkStores<ApplicationDbContext>();
 
@@ -61,15 +68,16 @@ try
 
     app.MapRazorPages();
 
-    Log.Information("Application configured successfully");
-
-    // Seed data 
     using (var scope = app.Services.CreateScope())
     {
         var context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
         var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
-        DbInitializer.Seed(context, roleManager);
+        var userManager = scope.ServiceProvider.GetRequiredService<UserManager<IdentityUser>>();
+
+        await DbInitializer.SeedAsync(context, roleManager, userManager);
     }
+
+    Log.Information("Application configured successfully");
 
     app.Run();
 }

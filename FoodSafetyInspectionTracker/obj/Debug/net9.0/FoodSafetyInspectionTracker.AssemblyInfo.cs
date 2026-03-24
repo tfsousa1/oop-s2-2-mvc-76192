@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FoodSafetyInspectionTracker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b509154ab177cb4ba168991b04be3ccefe477843")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+09d0d232dcf4f1b2ae2006413288699a345e8a1d")]
 [assembly: System.Reflection.AssemblyProductAttribute("FoodSafetyInspectionTracker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FoodSafetyInspectionTracker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

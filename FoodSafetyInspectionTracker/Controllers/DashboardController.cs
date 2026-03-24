@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace FoodSafetyInspectionTracker.Controllers
 {
-    [Authorize(Roles = "Admin,Viewer,Inspector")]
+    [Authorize(Roles = "Admin,Inspector,Viewer")]
     public class DashboardController : Controller
     {
         private readonly ApplicationDbContext _context;
