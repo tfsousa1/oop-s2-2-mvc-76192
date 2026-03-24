@@ -1,14 +1,27 @@
 using FoodSafetyInspectionTracker.Models;
+using Microsoft.AspNetCore.Identity;
 
 namespace FoodSafetyInspectionTracker.Data
 {
     public static class DbInitializer
     {
-        public static void Seed(ApplicationDbContext context)
+        public static void Seed(ApplicationDbContext context, RoleManager<IdentityRole> roleManager)
         {
+            context.Database.EnsureCreated();
+
+            string[] roles = { "Admin", "Inspector", "Viewer" };
+
+            foreach (var role in roles)
+            {
+                if (!roleManager.RoleExistsAsync(role).Result)
+                {
+                    roleManager.CreateAsync(new IdentityRole(role)).Wait();
+                }
+            }
+
             if (context.Premises.Any())
             {
-                return; // already seeded
+                return;
             }
 
             var premisesList = new List<Premises>

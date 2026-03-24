@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using FoodSafetyInspectionTracker.Data;
 using FoodSafetyInspectionTracker.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace FoodSafetyInspectionTracker.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class PremisesController : Controller
     {
         private readonly ApplicationDbContext _context;

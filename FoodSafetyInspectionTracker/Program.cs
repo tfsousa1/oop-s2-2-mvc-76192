@@ -67,7 +67,8 @@ try
     using (var scope = app.Services.CreateScope())
     {
         var context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-        DbInitializer.Seed(context);
+        var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+        DbInitializer.Seed(context, roleManager);
     }
 
     app.Run();

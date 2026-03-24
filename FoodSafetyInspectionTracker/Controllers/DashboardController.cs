@@ -1,10 +1,12 @@
 ﻿using FoodSafetyInspectionTracker.Data;
 using FoodSafetyInspectionTracker.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace FoodSafetyInspectionTracker.Controllers
 {
+    [Authorize(Roles = "Admin,Viewer,Inspector")]
     public class DashboardController : Controller
     {
         private readonly ApplicationDbContext _context;
