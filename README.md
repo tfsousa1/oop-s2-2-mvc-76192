@@ -22,6 +22,11 @@ This project is an ASP.NET Core MVC application developed for the OOP assignment
 - Serilog
 - xUnit
 
+## Seeded Users
+- Admin: admin@foodsafety.local / Admin123!
+- Inspector: inspector@foodsafety.local / Inspector123!
+- Viewer: viewer@foodsafety.local / Viewer123!
+
 ## How to Run
 1. Clone the repository
 2. Open the solution
