@@ -1,20 +1,19 @@
 ﻿@model IEnumerable<FoodSafetyInspectionTracker.Models.Inspection>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Inspections";
 }
 
-<h1>Index</h1>
+<h1>Inspections</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create" class="btn btn-primary">Create New Inspection</a>
 </p>
-<table class="table">
+
+<table class="table table-striped">
     <thead>
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Premises)
-            </th>
+            <th>Premises</th>
             <th>
                 @Html.DisplayNameFor(model => model.InspectionDate)
             </th>
@@ -31,10 +30,11 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
+@foreach (var item in Model)
+{
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Premises.Id)
+                @(item.Premises != null ? item.Premises.Name : "Not available")
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.InspectionDate)

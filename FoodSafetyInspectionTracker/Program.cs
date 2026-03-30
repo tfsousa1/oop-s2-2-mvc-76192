@@ -15,6 +15,7 @@ try
 
     var builder = WebApplication.CreateBuilder(args);
 
+    // Configure Serilog to read settings from appsettings.json and enrich logs with context data.
     builder.Host.UseSerilog((context, services, configuration) => configuration
         .ReadFrom.Configuration(context.Configuration)
         .ReadFrom.Services(services)
@@ -33,22 +34,20 @@ try
         options.Password.RequireNonAlphanumeric = true;
         options.Password.RequiredLength = 8;
     })
-        .AddRoles<IdentityRole>()
-        .AddEntityFrameworkStores<ApplicationDbContext>();
+    .AddRoles<IdentityRole>()
+    .AddEntityFrameworkStores<ApplicationDbContext>();
 
     builder.Services.AddControllersWithViews();
     builder.Services.AddRazorPages();
 
     var app = builder.Build();
 
+    // Global exception handler shows a friendly error page instead of exposing raw exceptions.
+    app.UseExceptionHandler("/Home/Error");
+
     if (!app.Environment.IsDevelopment())
     {
-        app.UseExceptionHandler("/Home/Error");
         app.UseHsts();
-    }
-    else
-    {
-        app.UseExceptionHandler("/Home/Error");
     }
 
     app.UseSerilogRequestLogging();
@@ -74,6 +73,7 @@ try
         var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
         var userManager = scope.ServiceProvider.GetRequiredService<UserManager<IdentityUser>>();
 
+        // Seed roles, users, and sample assessment data when the app starts.
         await DbInitializer.SeedAsync(context, roleManager, userManager);
     }
 
