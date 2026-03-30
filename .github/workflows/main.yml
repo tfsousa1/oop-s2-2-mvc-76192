@@ -3,8 +3,9 @@ name: Test & Publish Coverage (xUnit + ReportGenerator)
 on:
   workflow_dispatch:
   push:
-    branches: [ master, main ]
+    branches: [ master, main, improve-ca2 ]
   pull_request:
+    branches: [ master, main ]
 
 concurrency:
   group: "pages"
@@ -54,7 +55,7 @@ jobs:
 
       - name: Generate HTML coverage report
         run: |
-          export PATH="$PATH:~/.dotnet/tools"
+          export PATH="$PATH:$HOME/.dotnet/tools"
           reportgenerator \
             -reports:**/coverage.cobertura.xml \
             -targetdir:coveragereport \
