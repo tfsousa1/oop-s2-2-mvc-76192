@@ -1,15 +1,16 @@
 ﻿@model IEnumerable<FoodSafetyInspectionTracker.Models.Premises>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Premises";
 }
 
-<h1>Index</h1>
+<h1>Premises</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create" class="btn btn-primary">Create New Premises</a>
 </p>
-<table class="table">
+
+<table class="table table-striped">
     <thead>
         <tr>
             <th>
@@ -28,26 +29,32 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Address)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Town)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.RiskRating)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                <td>@Html.DisplayFor(modelItem => item.Address)</td>
+                <td>@Html.DisplayFor(modelItem => item.Town)</td>
+                <td>
+                    @if (item.RiskRating == "High")
+                    {
+                        <span class="badge bg-danger">High</span>
+                    }
+                    else if (item.RiskRating == "Medium")
+                    {
+                        <span class="badge bg-warning text-dark">Medium</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-success">Low</span>
+                    }
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
