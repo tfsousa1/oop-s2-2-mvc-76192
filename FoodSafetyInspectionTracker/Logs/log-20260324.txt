@@ -1675,3 +1675,40 @@ Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
 2026-03-24 09:14:59.488 +00:00 [INF] HTTP GET /Identity/lib/bootstrap/dist/js/bootstrap.bundle.js responded 304 in 0.7799 ms
 2026-03-24 09:14:59.488 +00:00 [INF] HTTP GET /Identity/lib/jquery/dist/jquery.js responded 304 in 0.8360 ms
 2026-03-24 09:14:59.488 +00:00 [INF] HTTP GET /Identity/js/site.js responded 304 in 0.9437 ms
+2026-03-24 09:23:54.048 +00:00 [INF] Starting FoodSafetyInspectionTracker application
+2026-03-24 09:24:00.302 +00:00 [INF] Application configured successfully
+2026-03-24 09:24:13.082 +00:00 [WRN] Failed to determine the https port for redirect.
+2026-03-24 09:24:13.364 +00:00 [INF] Home page visited
+2026-03-24 09:24:13.606 +00:00 [INF] HTTP GET / responded 200 in 536.0703 ms
+2026-03-24 09:24:13.848 +00:00 [INF] HTTP GET /css/site.css responded 304 in 15.0290 ms
+2026-03-24 09:24:13.848 +00:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 15.8168 ms
+2026-03-24 09:24:13.848 +00:00 [INF] HTTP GET /js/site.js responded 304 in 12.7944 ms
+2026-03-24 09:24:13.848 +00:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 17.0320 ms
+2026-03-24 09:24:13.848 +00:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 29.8328 ms
+2026-03-24 09:24:13.857 +00:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 24.8477 ms
+2026-03-24 09:24:19.022 +00:00 [INF] HTTP POST /Identity/Account/Logout responded 302 in 159.1763 ms
+2026-03-24 09:24:19.062 +00:00 [INF] Home page visited
+2026-03-24 09:24:19.080 +00:00 [INF] HTTP GET / responded 200 in 18.8997 ms
+2026-03-24 09:24:19.159 +00:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 4.0412 ms
+2026-03-24 09:24:19.163 +00:00 [INF] HTTP GET /css/site.css responded 304 in 3.9581 ms
+2026-03-24 09:24:19.163 +00:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 3.3561 ms
+2026-03-24 09:24:19.164 +00:00 [INF] HTTP GET /js/site.js responded 304 in 2.1916 ms
+2026-03-24 09:24:19.179 +00:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 18.8663 ms
+2026-03-24 09:24:19.229 +00:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 67.5082 ms
+2026-03-24 09:24:42.926 +00:00 [INF] HTTP GET /Inspections responded 302 in 14.0052 ms
+2026-03-24 09:24:43.093 +00:00 [INF] HTTP GET /Identity/Account/Login responded 200 in 151.3000 ms
+2026-03-24 09:24:43.159 +00:00 [INF] HTTP GET /Identity/lib/bootstrap/dist/css/bootstrap.css responded 304 in 4.3859 ms
+2026-03-24 09:24:43.199 +00:00 [INF] HTTP GET /Identity/css/site.css responded 304 in 1.7195 ms
+2026-03-24 09:24:43.210 +00:00 [INF] HTTP GET /Identity/js/site.js responded 304 in 1.5040 ms
+2026-03-24 09:24:43.212 +00:00 [INF] HTTP GET /Identity/lib/jquery/dist/jquery.js responded 304 in 1.0251 ms
+2026-03-24 09:24:43.215 +00:00 [INF] HTTP GET /Identity/lib/bootstrap/dist/js/bootstrap.bundle.js responded 304 in 15.1799 ms
+2026-03-24 09:24:43.222 +00:00 [INF] HTTP GET /Identity/lib/jquery-validation/dist/jquery.validate.js responded 304 in 6.5509 ms
+2026-03-24 09:24:43.230 +00:00 [INF] HTTP GET /Identity/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js responded 304 in 1.0808 ms
+2026-03-24 09:24:58.409 +00:00 [INF] HTTP POST /Identity/Account/Login responded 302 in 296.2584 ms
+2026-03-24 09:24:58.618 +00:00 [INF] HTTP GET /Inspections responded 200 in 195.8755 ms
+2026-03-24 09:24:58.679 +00:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 1.6260 ms
+2026-03-24 09:24:58.684 +00:00 [INF] HTTP GET /css/site.css responded 304 in 2.1778 ms
+2026-03-24 09:24:58.685 +00:00 [INF] HTTP GET /js/site.js responded 304 in 1.0555 ms
+2026-03-24 09:24:58.685 +00:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 1.1589 ms
+2026-03-24 09:24:58.685 +00:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 1.6902 ms
+2026-03-24 09:24:58.687 +00:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 4.0058 ms
