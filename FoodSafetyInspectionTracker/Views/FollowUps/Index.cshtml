@@ -1,20 +1,19 @@
 ﻿@model IEnumerable<FoodSafetyInspectionTracker.Models.FollowUp>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Follow-Ups";
 }
 
-<h1>Index</h1>
+<h1>Follow-Ups</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create" class="btn btn-primary">Create New Follow-Up</a>
 </p>
-<table class="table">
+
+<table class="table table-striped">
     <thead>
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Inspection)
-            </th>
+            <th>Inspection</th>
             <th>
                 @Html.DisplayNameFor(model => model.DueDate)
             </th>
@@ -28,26 +27,34 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Inspection.Id)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DueDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Status)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ClosedDate)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @(item.Inspection != null ? $"Inspection #{item.Inspection.Id}" : "Not available")
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DueDate)
+                </td>
+                <td>
+                    @if (item.Status == "Open")
+                    {
+                        <span class="badge bg-warning text-dark">Open</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-success">Closed</span>
+                    }
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ClosedDate)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

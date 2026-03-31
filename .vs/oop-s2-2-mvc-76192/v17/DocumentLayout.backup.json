@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Tamires\\source\\oop-s2-2-mvc-76192\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E69DAAFF-483D-410F-AF19-777052EC6D33}|FoodSafetyInspectionTracker\\FoodSafetyInspectionTracker.csproj|c:\\users\\tamires\\source\\oop-s2-2-mvc-76192\\foodsafetyinspectiontracker\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E69DAAFF-483D-410F-AF19-777052EC6D33}|FoodSafetyInspectionTracker\\FoodSafetyInspectionTracker.csproj|solutionrelative:foodsafetyinspectiontracker\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB9DCDFE-852F-4536-931F-B3D8F4152ACA}|FoodSafetyInspectionTracker.Tests\\FoodSafetyInspectionTracker.Tests.csproj|c:\\users\\tamires\\source\\oop-s2-2-mvc-76192\\foodsafetyinspectiontracker.tests\\dashboardandfollowuptests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB9DCDFE-852F-4536-931F-B3D8F4152ACA}|FoodSafetyInspectionTracker.Tests\\FoodSafetyInspectionTracker.Tests.csproj|solutionrelative:foodsafetyinspectiontracker.tests\\dashboardandfollowuptests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E69DAAFF-483D-410F-AF19-777052EC6D33}|FoodSafetyInspectionTracker\\FoodSafetyInspectionTracker.csproj|c:\\users\\tamires\\source\\oop-s2-2-mvc-76192\\foodsafetyinspectiontracker\\controllers\\followupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E69DAAFF-483D-410F-AF19-777052EC6D33}|FoodSafetyInspectionTracker\\FoodSafetyInspectionTracker.csproj|solutionrelative:foodsafetyinspectiontracker\\controllers\\followupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,6 +31,14 @@
       "RelativeMoniker": "D:0:0:{E69DAAFF-483D-410F-AF19-777052EC6D33}|FoodSafetyInspectionTracker\\FoodSafetyInspectionTracker.csproj|solutionrelative:foodsafetyinspectiontracker\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E69DAAFF-483D-410F-AF19-777052EC6D33}|FoodSafetyInspectionTracker\\FoodSafetyInspectionTracker.csproj|c:\\users\\tamires\\source\\oop-s2-2-mvc-76192\\foodsafetyinspectiontracker\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E69DAAFF-483D-410F-AF19-777052EC6D33}|FoodSafetyInspectionTracker\\FoodSafetyInspectionTracker.csproj|solutionrelative:foodsafetyinspectiontracker\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB9DCDFE-852F-4536-931F-B3D8F4152ACA}|FoodSafetyInspectionTracker.Tests\\FoodSafetyInspectionTracker.Tests.csproj|c:\\users\\tamires\\source\\oop-s2-2-mvc-76192\\foodsafetyinspectiontracker.tests\\dashboardandfollowuptests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB9DCDFE-852F-4536-931F-B3D8F4152ACA}|FoodSafetyInspectionTracker.Tests\\FoodSafetyInspectionTracker.Tests.csproj|solutionrelative:foodsafetyinspectiontracker.tests\\dashboardandfollowuptests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E69DAAFF-483D-410F-AF19-777052EC6D33}|FoodSafetyInspectionTracker\\FoodSafetyInspectionTracker.csproj|c:\\users\\tamires\\source\\oop-s2-2-mvc-76192\\foodsafetyinspectiontracker\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E69DAAFF-483D-410F-AF19-777052EC6D33}|FoodSafetyInspectionTracker\\FoodSafetyInspectionTracker.csproj|solutionrelative:foodsafetyinspectiontracker\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -54,24 +54,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InspectionsController.cs",
+              "DocumentMoniker": "C:\\Users\\Tamires\\source\\oop-s2-2-mvc-76192\\FoodSafetyInspectionTracker\\Controllers\\InspectionsController.cs",
+              "RelativeDocumentMoniker": "FoodSafetyInspectionTracker\\Controllers\\InspectionsController.cs",
+              "ToolTip": "C:\\Users\\Tamires\\source\\oop-s2-2-mvc-76192\\FoodSafetyInspectionTracker\\Controllers\\InspectionsController.cs",
+              "RelativeToolTip": "FoodSafetyInspectionTracker\\Controllers\\InspectionsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T00:33:06.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FollowUpsController.cs",
+              "DocumentMoniker": "C:\\Users\\Tamires\\source\\oop-s2-2-mvc-76192\\FoodSafetyInspectionTracker\\Controllers\\FollowUpsController.cs",
+              "RelativeDocumentMoniker": "FoodSafetyInspectionTracker\\Controllers\\FollowUpsController.cs",
+              "ToolTip": "C:\\Users\\Tamires\\source\\oop-s2-2-mvc-76192\\FoodSafetyInspectionTracker\\Controllers\\FollowUpsController.cs",
+              "RelativeToolTip": "FoodSafetyInspectionTracker\\Controllers\\FollowUpsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T00:49:50.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PremisesController.cs",
+              "DocumentMoniker": "C:\\Users\\Tamires\\source\\oop-s2-2-mvc-76192\\FoodSafetyInspectionTracker\\Controllers\\PremisesController.cs",
+              "RelativeDocumentMoniker": "FoodSafetyInspectionTracker\\Controllers\\PremisesController.cs",
+              "ToolTip": "C:\\Users\\Tamires\\source\\oop-s2-2-mvc-76192\\FoodSafetyInspectionTracker\\Controllers\\PremisesController.cs",
+              "RelativeToolTip": "FoodSafetyInspectionTracker\\Controllers\\PremisesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T00:17:10.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\Tamires\\source\\oop-s2-2-mvc-76192\\FoodSafetyInspectionTracker\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "FoodSafetyInspectionTracker\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\Tamires\\source\\oop-s2-2-mvc-76192\\FoodSafetyInspectionTracker\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "FoodSafetyInspectionTracker\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T01:01:46.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Tamires\\source\\oop-s2-2-mvc-76192\\FoodSafetyInspectionTracker\\Program.cs",
+              "RelativeDocumentMoniker": "FoodSafetyInspectionTracker\\Program.cs",
+              "ToolTip": "C:\\Users\\Tamires\\source\\oop-s2-2-mvc-76192\\FoodSafetyInspectionTracker\\Program.cs",
+              "RelativeToolTip": "FoodSafetyInspectionTracker\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T02:07:44.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\Tamires\\source\\oop-s2-2-mvc-76192\\FoodSafetyInspectionTracker\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "FoodSafetyInspectionTracker\\Data\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\Tamires\\source\\oop-s2-2-mvc-76192\\FoodSafetyInspectionTracker\\Data\\DbInitializer.cs",
+              "RelativeToolTip": "FoodSafetyInspectionTracker\\Data\\DbInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T02:06:51.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tamires\\source\\oop-s2-2-mvc-76192\\FoodSafetyInspectionTracker\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FoodSafetyInspectionTracker\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Tamires\\source\\oop-s2-2-mvc-76192\\FoodSafetyInspectionTracker\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FoodSafetyInspectionTracker\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-24T01:05:22.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\Tamires\\source\\oop-s2-2-mvc-76192\\FoodSafetyInspectionTracker\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "FoodSafetyInspectionTracker\\Views\\Shared\\_LoginPartial.cshtml",
               "ToolTip": "C:\\Users\\Tamires\\source\\oop-s2-2-mvc-76192\\FoodSafetyInspectionTracker\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeToolTip": "FoodSafetyInspectionTracker\\Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-03-24T02:58:44.972Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "DashboardAndFollowUpTests.cs",
               "DocumentMoniker": "C:\\Users\\Tamires\\source\\oop-s2-2-mvc-76192\\FoodSafetyInspectionTracker.Tests\\DashboardAndFollowUpTests.cs",
               "RelativeDocumentMoniker": "FoodSafetyInspectionTracker.Tests\\DashboardAndFollowUpTests.cs",
@@ -81,90 +172,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-24T02:15:41.376Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "InspectionsController.cs",
-              "DocumentMoniker": "C:\\Users\\Tamires\\source\\oop-s2-2-mvc-76192\\FoodSafetyInspectionTracker\\Controllers\\InspectionsController.cs",
-              "RelativeDocumentMoniker": "FoodSafetyInspectionTracker\\Controllers\\InspectionsController.cs",
-              "ToolTip": "C:\\Users\\Tamires\\source\\oop-s2-2-mvc-76192\\FoodSafetyInspectionTracker\\Controllers\\InspectionsController.cs",
-              "RelativeToolTip": "FoodSafetyInspectionTracker\\Controllers\\InspectionsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T00:33:06.758Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FollowUpsController.cs",
-              "DocumentMoniker": "C:\\Users\\Tamires\\source\\oop-s2-2-mvc-76192\\FoodSafetyInspectionTracker\\Controllers\\FollowUpsController.cs",
-              "RelativeDocumentMoniker": "FoodSafetyInspectionTracker\\Controllers\\FollowUpsController.cs",
-              "ToolTip": "C:\\Users\\Tamires\\source\\oop-s2-2-mvc-76192\\FoodSafetyInspectionTracker\\Controllers\\FollowUpsController.cs",
-              "RelativeToolTip": "FoodSafetyInspectionTracker\\Controllers\\FollowUpsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T00:49:50.209Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PremisesController.cs",
-              "DocumentMoniker": "C:\\Users\\Tamires\\source\\oop-s2-2-mvc-76192\\FoodSafetyInspectionTracker\\Controllers\\PremisesController.cs",
-              "RelativeDocumentMoniker": "FoodSafetyInspectionTracker\\Controllers\\PremisesController.cs",
-              "ToolTip": "C:\\Users\\Tamires\\source\\oop-s2-2-mvc-76192\\FoodSafetyInspectionTracker\\Controllers\\PremisesController.cs",
-              "RelativeToolTip": "FoodSafetyInspectionTracker\\Controllers\\PremisesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T00:17:10.071Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DashboardController.cs",
-              "DocumentMoniker": "C:\\Users\\Tamires\\source\\oop-s2-2-mvc-76192\\FoodSafetyInspectionTracker\\Controllers\\DashboardController.cs",
-              "RelativeDocumentMoniker": "FoodSafetyInspectionTracker\\Controllers\\DashboardController.cs",
-              "ToolTip": "C:\\Users\\Tamires\\source\\oop-s2-2-mvc-76192\\FoodSafetyInspectionTracker\\Controllers\\DashboardController.cs",
-              "RelativeToolTip": "FoodSafetyInspectionTracker\\Controllers\\DashboardController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T01:01:46.161Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Tamires\\source\\oop-s2-2-mvc-76192\\FoodSafetyInspectionTracker\\Program.cs",
-              "RelativeDocumentMoniker": "FoodSafetyInspectionTracker\\Program.cs",
-              "ToolTip": "C:\\Users\\Tamires\\source\\oop-s2-2-mvc-76192\\FoodSafetyInspectionTracker\\Program.cs",
-              "RelativeToolTip": "FoodSafetyInspectionTracker\\Program.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAEEAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T02:07:44.536Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DbInitializer.cs",
-              "DocumentMoniker": "C:\\Users\\Tamires\\source\\oop-s2-2-mvc-76192\\FoodSafetyInspectionTracker\\Data\\DbInitializer.cs",
-              "RelativeDocumentMoniker": "FoodSafetyInspectionTracker\\Data\\DbInitializer.cs",
-              "ToolTip": "C:\\Users\\Tamires\\source\\oop-s2-2-mvc-76192\\FoodSafetyInspectionTracker\\Data\\DbInitializer.cs",
-              "RelativeToolTip": "FoodSafetyInspectionTracker\\Data\\DbInitializer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T02:06:51.434Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tamires\\source\\oop-s2-2-mvc-76192\\FoodSafetyInspectionTracker\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "FoodSafetyInspectionTracker\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Tamires\\source\\oop-s2-2-mvc-76192\\FoodSafetyInspectionTracker\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "FoodSafetyInspectionTracker\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwD8AAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-24T01:05:22.559Z"
             },
             {
               "$type": "Document",

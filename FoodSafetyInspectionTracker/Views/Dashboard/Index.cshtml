@@ -6,10 +6,15 @@
 
 <h1>Dashboard</h1>
 
+<p class="text-muted">
+    This dashboard shows summary information for inspections and follow-up actions.
+</p>
+
 <form asp-action="Index" method="get" class="mb-4">
     <div class="row g-2">
         <div class="col-md-4">
-            <select name="town" class="form-select">
+            <label for="town" class="form-label">Town</label>
+            <select id="town" name="town" class="form-select">
                 <option value="">All Towns</option>
                 @foreach (var item in Model.Towns)
                 {
@@ -24,61 +29,115 @@
                 }
             </select>
         </div>
-        <div class="col-md-2">
-            <button type="submit" class="btn btn-primary">Filter</button>
+
+        <div class="col-md-4">
+            <label for="riskRating" class="form-label">Risk Rating</label>
+            <select id="riskRating" name="riskRating" class="form-select">
+                <option value="">All Risk Ratings</option>
+                @foreach (var item in Model.RiskRatings)
+                {
+                    if (Model.SelectedRiskRating == item)
+                    {
+                        <option value="@item" selected>@item</option>
+                    }
+                    else
+                    {
+                        <option value="@item">@item</option>
+                    }
+                }
+            </select>
+        </div>
+
+        <div class="col-md-4 d-flex align-items-end gap-2">
+            <button type="submit" class="btn btn-primary">Apply Filters</button>
+            <a asp-action="Index" class="btn btn-outline-secondary">Clear</a>
         </div>
     </div>
 </form>
 
-<div class="row mb-4">
-    <div class="col-md-3">
-        <div class="card p-3">
-            <h5>Total Premises</h5>
-            <p class="fs-4">@Model.TotalPremises</p>
+<div class="row mb-4 g-3">
+    <div class="col-md-4 col-lg-2">
+        <div class="card shadow-sm border-0 p-3 h-100">
+            <h6 class="mb-2">Total Premises</h6>
+            <p class="fs-3 fw-bold mb-0">@Model.TotalPremises</p>
         </div>
     </div>
 
-    <div class="col-md-3">
-        <div class="card p-3">
-            <h5>Total Inspections</h5>
-            <p class="fs-4">@Model.TotalInspections</p>
+    <div class="col-md-4 col-lg-2">
+        <div class="card shadow-sm border-0 p-3 h-100">
+            <h6 class="mb-2">Total Inspections</h6>
+            <p class="fs-3 fw-bold mb-0">@Model.TotalInspections</p>
         </div>
     </div>
 
-    <div class="col-md-3">
-        <div class="card p-3">
-            <h5>Open Follow-Ups</h5>
-            <p class="fs-4">@Model.OpenFollowUps</p>
+    <div class="col-md-4 col-lg-2">
+        <div class="card shadow-sm border-0 p-3 h-100">
+            <h6 class="mb-2">This Month</h6>
+            <p class="fs-3 fw-bold mb-0">@Model.InspectionsThisMonth</p>
         </div>
     </div>
 
-    <div class="col-md-3">
-        <div class="card p-3">
-            <h5>Overdue Follow-Ups</h5>
-            <p class="fs-4">@Model.OverdueFollowUps</p>
+    <div class="col-md-4 col-lg-2">
+        <div class="card shadow-sm border-0 p-3 h-100">
+            <h6 class="mb-2">Failed This Month</h6>
+            <p class="fs-3 fw-bold mb-0">@Model.FailedInspectionsThisMonth</p>
+        </div>
+    </div>
+
+    <div class="col-md-4 col-lg-2">
+        <div class="card shadow-sm border-0 p-3 h-100">
+            <h6 class="mb-2">Open Follow-Ups</h6>
+            <p class="fs-3 fw-bold mb-0">@Model.OpenFollowUps</p>
+        </div>
+    </div>
+
+    <div class="col-md-4 col-lg-2">
+        <div class="card shadow-sm border-0 p-3 h-100">
+            <h6 class="mb-2">Overdue Open</h6>
+            <p class="fs-3 fw-bold mb-0">@Model.OverdueFollowUps</p>
         </div>
     </div>
 </div>
 
 <h3>Recent Inspections</h3>
 
-<table class="table">
+<table class="table table-striped">
     <thead>
         <tr>
             <th>Premises</th>
+            <th>Town</th>
             <th>Date</th>
             <th>Score</th>
             <th>Outcome</th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var inspection in Model.RecentInspections)
+        @if (Model.RecentInspections.Any())
+        {
+            @foreach (var inspection in Model.RecentInspections)
+            {
+                <tr>
+                    <td>@(inspection.Premises?.Name ?? "Not available")</td>
+                    <td>@(inspection.Premises?.Town ?? "Not available")</td>
+                    <td>@inspection.InspectionDate.ToShortDateString()</td>
+                    <td>@inspection.Score</td>
+                    <td>
+                        @if (inspection.Outcome == "Fail")
+                        {
+                            <span class="badge bg-danger">Fail</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-success">Pass</span>
+                        }
+                    </td>
+                </tr>
+            }
+        }
+        else
         {
             <tr>
-                <td>@(inspection.Premises?.Name ?? "")</td>
-                <td>@inspection.InspectionDate</td>
-                <td>@inspection.Score</td>
-                <td>@inspection.Outcome</td>
+                <td colspan="5">No inspections found for the selected filters.</td>
             </tr>
         }
     </tbody>

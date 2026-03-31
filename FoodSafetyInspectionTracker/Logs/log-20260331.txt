@@ -1,0 +1,543 @@
+2026-03-31 01:37:57.478 +01:00 [INF] Starting FoodSafetyInspectionTracker application
+2026-03-31 01:37:59.685 +01:00 [FTL] Application terminated unexpectedly
+System.InvalidOperationException: An error was generated for warning 'Microsoft.EntityFrameworkCore.Migrations.PendingModelChangesWarning': The model for context 'ApplicationDbContext' has pending changes. Add a new migration before updating the database. See https://aka.ms/efcore-docs-pending-changes. This exception can be suppressed or logged by passing event ID 'RelationalEventId.PendingModelChangesWarning' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.
+   at Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`1.Log[TLoggerCategory](IDiagnosticsLogger`1 logger, TParam arg)
+   at Microsoft.EntityFrameworkCore.Diagnostics.RelationalLoggerExtensions.PendingModelChangesWarning(IDiagnosticsLogger`1 diagnostics, Type contextType)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.ValidateMigrations(Boolean useTransaction, String targetMigration)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.MigrateAsync(String targetMigration, CancellationToken cancellationToken)
+   at FoodSafetyInspectionTracker.Data.DbInitializer.SeedAsync(ApplicationDbContext context, RoleManager`1 roleManager, UserManager`1 userManager) in C:\Users\Tamires\source\oop-s2-2-mvc-76192\FoodSafetyInspectionTracker\Data\DbInitializer.cs:line 14
+   at Program.<Main>$(String[] args) in C:\Users\Tamires\source\oop-s2-2-mvc-76192\FoodSafetyInspectionTracker\Program.cs:line 77
+2026-03-31 01:40:17.788 +01:00 [INF] Starting FoodSafetyInspectionTracker application
+2026-03-31 01:40:18.041 +01:00 [FTL] Application terminated unexpectedly
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\Tamires\source\oop-s2-2-mvc-76192\FoodSafetyInspectionTracker\Program.cs:line 43
+2026-03-31 01:49:34.340 +01:00 [INF] Starting FoodSafetyInspectionTracker application
+2026-03-31 01:49:35.564 +01:00 [FTL] Application terminated unexpectedly
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\Tamires\source\oop-s2-2-mvc-76192\FoodSafetyInspectionTracker\Program.cs:line 43
+2026-03-31 01:51:01.341 +01:00 [INF] Starting FoodSafetyInspectionTracker application
+2026-03-31 01:51:04.401 +01:00 [INF] Application configured successfully
+2026-03-31 01:57:49.393 +01:00 [INF] Starting FoodSafetyInspectionTracker application
+2026-03-31 01:57:53.815 +01:00 [INF] Application configured successfully
+2026-03-31 01:58:19.416 +01:00 [WRN] Failed to determine the https port for redirect.
+2026-03-31 01:58:19.577 +01:00 [INF] Home page visited
+2026-03-31 01:58:20.012 +01:00 [INF] HTTP GET / responded 200 in 602.4479 ms
+2026-03-31 01:58:20.119 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 15.5395 ms
+2026-03-31 01:58:20.124 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 200 in 49.2377 ms
+2026-03-31 01:58:20.135 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 200 in 31.6784 ms
+2026-03-31 01:58:20.136 +01:00 [INF] HTTP GET /css/site.css responded 200 in 35.0336 ms
+2026-03-31 01:58:20.137 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 200 in 31.9473 ms
+2026-03-31 01:58:20.140 +01:00 [INF] HTTP GET /js/site.js responded 200 in 33.0341 ms
+2026-03-31 01:58:21.042 +01:00 [INF] HTTP GET /favicon.ico responded 200 in 21.2096 ms
+2026-03-31 01:58:31.231 +01:00 [INF] Home page visited
+2026-03-31 01:58:31.282 +01:00 [INF] HTTP GET / responded 200 in 53.4021 ms
+2026-03-31 01:58:31.370 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 2.6191 ms
+2026-03-31 01:58:31.376 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 3.1056 ms
+2026-03-31 01:58:31.379 +01:00 [INF] HTTP GET /css/site.css responded 304 in 7.4561 ms
+2026-03-31 01:58:31.380 +01:00 [INF] HTTP GET /js/site.js responded 304 in 3.4026 ms
+2026-03-31 01:58:31.388 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 15.9137 ms
+2026-03-31 01:58:31.434 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 61.2899 ms
+2026-03-31 01:58:34.921 +01:00 [INF] Home page visited
+2026-03-31 01:58:34.924 +01:00 [INF] HTTP GET / responded 200 in 4.0005 ms
+2026-03-31 01:58:34.967 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 0.8002 ms
+2026-03-31 01:58:34.978 +01:00 [INF] HTTP GET /css/site.css responded 304 in 0.8438 ms
+2026-03-31 01:58:34.980 +01:00 [INF] HTTP GET /js/site.js responded 304 in 0.7500 ms
+2026-03-31 01:58:34.980 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 0.8773 ms
+2026-03-31 01:58:34.980 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.9842 ms
+2026-03-31 01:58:34.981 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 2.7030 ms
+2026-03-31 01:58:36.389 +01:00 [INF] Privacy page visited
+2026-03-31 01:58:36.402 +01:00 [INF] HTTP GET /Home/Privacy responded 200 in 18.2966 ms
+2026-03-31 01:58:36.479 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 1.1457 ms
+2026-03-31 01:58:36.486 +01:00 [INF] HTTP GET /css/site.css responded 304 in 0.9707 ms
+2026-03-31 01:58:36.486 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 0.8299 ms
+2026-03-31 01:58:36.487 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 1.7723 ms
+2026-03-31 01:58:36.487 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.9946 ms
+2026-03-31 01:58:36.487 +01:00 [INF] HTTP GET /js/site.js responded 304 in 0.8913 ms
+2026-03-31 01:58:39.578 +01:00 [INF] HTTP GET /Identity/Account/Register responded 200 in 228.1312 ms
+2026-03-31 01:58:39.635 +01:00 [INF] HTTP GET /Identity/css/site.css responded 200 in 6.6555 ms
+2026-03-31 01:58:39.635 +01:00 [INF] HTTP GET /Identity/js/site.js responded 200 in 4.7494 ms
+2026-03-31 01:58:39.654 +01:00 [INF] HTTP GET /Identity/lib/jquery-validation/dist/jquery.validate.js responded 200 in 23.0847 ms
+2026-03-31 01:58:39.654 +01:00 [INF] HTTP GET /Identity/lib/bootstrap/dist/js/bootstrap.bundle.js responded 200 in 24.9073 ms
+2026-03-31 01:58:39.654 +01:00 [INF] HTTP GET /Identity/lib/bootstrap/dist/css/bootstrap.css responded 200 in 37.2312 ms
+2026-03-31 01:58:39.665 +01:00 [INF] HTTP GET /Identity/lib/jquery/dist/jquery.js responded 200 in 35.8266 ms
+2026-03-31 01:58:39.690 +01:00 [INF] HTTP GET /Identity/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js responded 200 in 48.1445 ms
+2026-03-31 01:58:42.020 +01:00 [INF] HTTP GET /Identity/Account/Login responded 200 in 107.3231 ms
+2026-03-31 01:58:42.121 +01:00 [INF] HTTP GET /Identity/css/site.css responded 304 in 2.4734 ms
+2026-03-31 01:58:42.123 +01:00 [INF] HTTP GET /Identity/js/site.js responded 304 in 2.0712 ms
+2026-03-31 01:58:42.126 +01:00 [INF] HTTP GET /Identity/lib/jquery/dist/jquery.js responded 304 in 6.9519 ms
+2026-03-31 01:58:42.129 +01:00 [INF] HTTP GET /Identity/lib/jquery-validation/dist/jquery.validate.js responded 304 in 7.7476 ms
+2026-03-31 01:58:42.131 +01:00 [INF] HTTP GET /Identity/lib/bootstrap/dist/js/bootstrap.bundle.js responded 304 in 11.4802 ms
+2026-03-31 01:58:42.132 +01:00 [INF] HTTP GET /Identity/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js responded 304 in 4.4497 ms
+2026-03-31 01:58:42.179 +01:00 [INF] HTTP GET /Identity/lib/bootstrap/dist/css/bootstrap.css responded 304 in 78.7110 ms
+2026-03-31 01:58:53.811 +01:00 [INF] Home page visited
+2026-03-31 01:58:53.817 +01:00 [INF] HTTP GET / responded 200 in 6.5445 ms
+2026-03-31 01:58:53.873 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 1.6218 ms
+2026-03-31 01:58:53.888 +01:00 [INF] HTTP GET /css/site.css responded 304 in 0.6115 ms
+2026-03-31 01:58:53.888 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 0.6583 ms
+2026-03-31 01:58:53.889 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.8856 ms
+2026-03-31 01:58:53.889 +01:00 [INF] HTTP GET /js/site.js responded 304 in 0.6313 ms
+2026-03-31 01:58:53.889 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 2.1698 ms
+2026-03-31 02:00:39.033 +01:00 [INF] HTTP GET /Identity/Account/Login responded 200 in 5.7693 ms
+2026-03-31 02:00:39.073 +01:00 [INF] HTTP GET /Identity/lib/bootstrap/dist/css/bootstrap.css responded 304 in 0.4401 ms
+2026-03-31 02:00:39.086 +01:00 [INF] HTTP GET /Identity/css/site.css responded 304 in 0.5114 ms
+2026-03-31 02:00:39.087 +01:00 [INF] HTTP GET /Identity/lib/jquery/dist/jquery.js responded 304 in 0.6052 ms
+2026-03-31 02:00:39.087 +01:00 [INF] HTTP GET /Identity/lib/bootstrap/dist/js/bootstrap.bundle.js responded 304 in 0.6288 ms
+2026-03-31 02:00:39.088 +01:00 [INF] HTTP GET /Identity/js/site.js responded 304 in 0.5105 ms
+2026-03-31 02:00:39.089 +01:00 [INF] HTTP GET /Identity/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js responded 304 in 0.7728 ms
+2026-03-31 02:00:39.089 +01:00 [INF] HTTP GET /Identity/lib/jquery-validation/dist/jquery.validate.js responded 304 in 1.3502 ms
+2026-03-31 02:00:57.055 +01:00 [INF] HTTP POST /Identity/Account/Login responded 302 in 439.9749 ms
+2026-03-31 02:00:57.072 +01:00 [INF] Home page visited
+2026-03-31 02:00:57.080 +01:00 [INF] HTTP GET / responded 200 in 12.9276 ms
+2026-03-31 02:00:57.144 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 4.7186 ms
+2026-03-31 02:00:57.149 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 2.6808 ms
+2026-03-31 02:00:57.149 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 1.6138 ms
+2026-03-31 02:00:57.149 +01:00 [INF] HTTP GET /js/site.js responded 304 in 1.6136 ms
+2026-03-31 02:00:57.149 +01:00 [INF] HTTP GET /css/site.css responded 304 in 4.1736 ms
+2026-03-31 02:00:57.149 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 3.8907 ms
+2026-03-31 02:01:08.107 +01:00 [INF] Home page visited
+2026-03-31 02:01:08.113 +01:00 [INF] HTTP GET / responded 200 in 8.3626 ms
+2026-03-31 02:01:08.205 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 1.7822 ms
+2026-03-31 02:01:08.212 +01:00 [INF] HTTP GET /css/site.css responded 304 in 1.1261 ms
+2026-03-31 02:01:08.214 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 2.3632 ms
+2026-03-31 02:01:08.215 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 1.4437 ms
+2026-03-31 02:01:08.215 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 1.3252 ms
+2026-03-31 02:01:08.216 +01:00 [INF] HTTP GET /js/site.js responded 304 in 0.9993 ms
+2026-03-31 02:01:09.780 +01:00 [INF] Home page visited
+2026-03-31 02:01:09.784 +01:00 [INF] HTTP GET / responded 200 in 3.9494 ms
+2026-03-31 02:01:09.829 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 1.1813 ms
+2026-03-31 02:01:09.840 +01:00 [INF] HTTP GET /css/site.css responded 304 in 0.9649 ms
+2026-03-31 02:01:09.841 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 0.8948 ms
+2026-03-31 02:01:09.841 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.7644 ms
+2026-03-31 02:01:09.842 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 2.1050 ms
+2026-03-31 02:01:09.842 +01:00 [INF] HTTP GET /js/site.js responded 304 in 0.9693 ms
+2026-03-31 02:01:10.522 +01:00 [INF] Dashboard loaded with filters. Town: All, RiskRating: All, UserName: admin@foodsafety.local
+2026-03-31 02:01:10.943 +01:00 [INF] HTTP GET /Dashboard responded 200 in 448.8165 ms
+2026-03-31 02:01:10.983 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 0.9169 ms
+2026-03-31 02:01:10.987 +01:00 [INF] HTTP GET /css/site.css responded 304 in 0.7235 ms
+2026-03-31 02:01:10.988 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.4759 ms
+2026-03-31 02:01:10.988 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 0.6520 ms
+2026-03-31 02:01:10.988 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 1.2035 ms
+2026-03-31 02:01:10.988 +01:00 [INF] HTTP GET /js/site.js responded 304 in 0.6226 ms
+2026-03-31 02:01:26.567 +01:00 [INF] Dashboard loaded with filters. Town: Cork, RiskRating: All, UserName: admin@foodsafety.local
+2026-03-31 02:01:26.597 +01:00 [INF] HTTP GET /Dashboard responded 200 in 39.8640 ms
+2026-03-31 02:01:26.655 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 0.7641 ms
+2026-03-31 02:01:26.660 +01:00 [INF] HTTP GET /css/site.css responded 304 in 0.9416 ms
+2026-03-31 02:01:26.660 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 1.0630 ms
+2026-03-31 02:01:26.660 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.9184 ms
+2026-03-31 02:01:26.661 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 2.0173 ms
+2026-03-31 02:01:26.661 +01:00 [INF] HTTP GET /js/site.js responded 304 in 0.9063 ms
+2026-03-31 02:01:31.268 +01:00 [INF] Dashboard loaded with filters. Town: Dublin, RiskRating: All, UserName: admin@foodsafety.local
+2026-03-31 02:01:31.308 +01:00 [INF] HTTP GET /Dashboard responded 200 in 49.3860 ms
+2026-03-31 02:01:31.367 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 1.2680 ms
+2026-03-31 02:01:31.378 +01:00 [INF] HTTP GET /css/site.css responded 304 in 0.8075 ms
+2026-03-31 02:01:31.378 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 0.7950 ms
+2026-03-31 02:01:31.380 +01:00 [INF] HTTP GET /js/site.js responded 304 in 0.9148 ms
+2026-03-31 02:01:31.380 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 1.2898 ms
+2026-03-31 02:01:31.382 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 4.9626 ms
+2026-03-31 02:01:34.679 +01:00 [INF] Dashboard loaded with filters. Town: Galway, RiskRating: All, UserName: admin@foodsafety.local
+2026-03-31 02:01:34.715 +01:00 [INF] HTTP GET /Dashboard responded 200 in 39.4797 ms
+2026-03-31 02:01:34.782 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 1.6182 ms
+2026-03-31 02:01:34.789 +01:00 [INF] HTTP GET /css/site.css responded 304 in 0.8077 ms
+2026-03-31 02:01:34.790 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.5937 ms
+2026-03-31 02:01:34.790 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 0.7208 ms
+2026-03-31 02:01:34.790 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 1.6247 ms
+2026-03-31 02:01:34.790 +01:00 [INF] HTTP GET /js/site.js responded 304 in 0.6978 ms
+2026-03-31 02:01:38.582 +01:00 [INF] Dashboard loaded with filters. Town: All, RiskRating: All, UserName: admin@foodsafety.local
+2026-03-31 02:01:38.616 +01:00 [INF] HTTP GET /Dashboard responded 200 in 36.6889 ms
+2026-03-31 02:01:38.685 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 0.9797 ms
+2026-03-31 02:01:38.690 +01:00 [INF] HTTP GET /css/site.css responded 304 in 0.8474 ms
+2026-03-31 02:01:38.690 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.6247 ms
+2026-03-31 02:01:38.691 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 1.0001 ms
+2026-03-31 02:01:38.691 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 1.4381 ms
+2026-03-31 02:01:38.691 +01:00 [INF] HTTP GET /js/site.js responded 304 in 0.7601 ms
+2026-03-31 02:01:43.513 +01:00 [INF] HTTP GET /Premises responded 200 in 35.3246 ms
+2026-03-31 02:01:43.549 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 0.7593 ms
+2026-03-31 02:01:43.552 +01:00 [INF] HTTP GET /css/site.css responded 304 in 0.7273 ms
+2026-03-31 02:01:43.553 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 0.5258 ms
+2026-03-31 02:01:43.553 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.4871 ms
+2026-03-31 02:01:43.553 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 1.1767 ms
+2026-03-31 02:01:43.553 +01:00 [INF] HTTP GET /js/site.js responded 304 in 0.5808 ms
+2026-03-31 02:01:58.197 +01:00 [INF] HTTP GET /Inspections responded 200 in 84.8394 ms
+2026-03-31 02:01:58.237 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 0.8089 ms
+2026-03-31 02:01:58.241 +01:00 [INF] HTTP GET /css/site.css responded 304 in 0.6503 ms
+2026-03-31 02:01:58.242 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 0.6702 ms
+2026-03-31 02:01:58.242 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.6286 ms
+2026-03-31 02:01:58.242 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 1.6011 ms
+2026-03-31 02:01:58.242 +01:00 [INF] HTTP GET /js/site.js responded 304 in 0.6668 ms
+2026-03-31 02:02:01.189 +01:00 [INF] HTTP GET /FollowUps responded 200 in 65.3501 ms
+2026-03-31 02:02:01.223 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 0.5229 ms
+2026-03-31 02:02:01.236 +01:00 [INF] HTTP GET /css/site.css responded 304 in 0.8405 ms
+2026-03-31 02:02:01.237 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 1.2128 ms
+2026-03-31 02:02:01.237 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 1.2506 ms
+2026-03-31 02:02:01.237 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 1.8536 ms
+2026-03-31 02:02:01.239 +01:00 [INF] HTTP GET /js/site.js responded 304 in 1.2167 ms
+2026-03-31 02:02:09.710 +01:00 [INF] Privacy page visited
+2026-03-31 02:02:09.713 +01:00 [INF] HTTP GET /Home/Privacy responded 200 in 5.4565 ms
+2026-03-31 02:02:09.789 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 0.8865 ms
+2026-03-31 02:02:09.805 +01:00 [INF] HTTP GET /css/site.css responded 304 in 1.2145 ms
+2026-03-31 02:02:09.806 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 1.3712 ms
+2026-03-31 02:02:09.807 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 1.5056 ms
+2026-03-31 02:02:09.807 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 3.1839 ms
+2026-03-31 02:02:09.807 +01:00 [INF] HTTP GET /js/site.js responded 304 in 1.5394 ms
+2026-03-31 02:02:11.631 +01:00 [INF] HTTP GET /Identity/Account/Manage responded 200 in 108.9207 ms
+2026-03-31 02:02:11.673 +01:00 [INF] HTTP GET /Identity/lib/bootstrap/dist/css/bootstrap.css responded 304 in 0.8613 ms
+2026-03-31 02:02:11.701 +01:00 [INF] HTTP GET /Identity/lib/jquery/dist/jquery.js responded 304 in 0.7881 ms
+2026-03-31 02:02:11.702 +01:00 [INF] HTTP GET /Identity/lib/bootstrap/dist/js/bootstrap.bundle.js responded 304 in 1.5692 ms
+2026-03-31 02:02:11.703 +01:00 [INF] HTTP GET /Identity/js/site.js responded 304 in 1.0043 ms
+2026-03-31 02:02:11.703 +01:00 [INF] HTTP GET /Identity/css/site.css responded 304 in 2.5845 ms
+2026-03-31 02:02:11.703 +01:00 [INF] HTTP GET /Identity/lib/jquery-validation/dist/jquery.validate.js responded 304 in 2.0080 ms
+2026-03-31 02:02:11.704 +01:00 [INF] HTTP GET /Identity/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js responded 304 in 1.0837 ms
+2026-03-31 02:02:15.725 +01:00 [INF] HTTP GET /Identity/Account/Manage responded 200 in 9.6841 ms
+2026-03-31 02:02:15.827 +01:00 [INF] HTTP GET /Identity/lib/bootstrap/dist/css/bootstrap.css responded 304 in 1.0551 ms
+2026-03-31 02:02:15.833 +01:00 [INF] HTTP GET /Identity/css/site.css responded 304 in 0.7826 ms
+2026-03-31 02:02:15.833 +01:00 [INF] HTTP GET /Identity/lib/jquery/dist/jquery.js responded 304 in 0.6035 ms
+2026-03-31 02:02:15.834 +01:00 [INF] HTTP GET /Identity/lib/bootstrap/dist/js/bootstrap.bundle.js responded 304 in 0.6713 ms
+2026-03-31 02:02:15.834 +01:00 [INF] HTTP GET /Identity/js/site.js responded 304 in 0.7567 ms
+2026-03-31 02:02:15.835 +01:00 [INF] HTTP GET /Identity/lib/jquery-validation/dist/jquery.validate.js responded 304 in 0.7740 ms
+2026-03-31 02:02:15.838 +01:00 [INF] HTTP GET /Identity/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js responded 304 in 1.1971 ms
+2026-03-31 02:02:17.297 +01:00 [INF] HTTP GET /Identity/Account/Manage responded 200 in 14.1349 ms
+2026-03-31 02:02:17.376 +01:00 [INF] HTTP GET /Identity/lib/bootstrap/dist/css/bootstrap.css responded 304 in 0.8940 ms
+2026-03-31 02:02:17.380 +01:00 [INF] HTTP GET /Identity/css/site.css responded 304 in 0.8012 ms
+2026-03-31 02:02:17.380 +01:00 [INF] HTTP GET /Identity/lib/jquery/dist/jquery.js responded 304 in 0.6706 ms
+2026-03-31 02:02:17.381 +01:00 [INF] HTTP GET /Identity/js/site.js responded 304 in 0.9072 ms
+2026-03-31 02:02:17.381 +01:00 [INF] HTTP GET /Identity/lib/bootstrap/dist/js/bootstrap.bundle.js responded 304 in 1.0573 ms
+2026-03-31 02:02:17.381 +01:00 [INF] HTTP GET /Identity/lib/jquery-validation/dist/jquery.validate.js responded 304 in 0.8384 ms
+2026-03-31 02:02:17.383 +01:00 [INF] HTTP GET /Identity/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js responded 304 in 0.7193 ms
+2026-03-31 02:02:24.491 +01:00 [INF] HTTP POST /Identity/Account/Logout responded 302 in 7.3687 ms
+2026-03-31 02:02:24.500 +01:00 [INF] Home page visited
+2026-03-31 02:02:24.502 +01:00 [INF] HTTP GET / responded 200 in 2.8091 ms
+2026-03-31 02:02:24.539 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 0.3630 ms
+2026-03-31 02:02:24.547 +01:00 [INF] HTTP GET /css/site.css responded 304 in 0.4469 ms
+2026-03-31 02:02:24.548 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 0.4095 ms
+2026-03-31 02:02:24.549 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 1.5895 ms
+2026-03-31 02:02:24.549 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.4216 ms
+2026-03-31 02:02:24.551 +01:00 [INF] HTTP GET /js/site.js responded 304 in 2.5172 ms
+2026-03-31 02:02:33.069 +01:00 [INF] HTTP GET /Identity/Account/Login responded 200 in 4.8796 ms
+2026-03-31 02:02:33.117 +01:00 [INF] HTTP GET /Identity/lib/bootstrap/dist/css/bootstrap.css responded 304 in 0.4115 ms
+2026-03-31 02:02:33.121 +01:00 [INF] HTTP GET /Identity/css/site.css responded 304 in 0.4863 ms
+2026-03-31 02:02:33.122 +01:00 [INF] HTTP GET /Identity/lib/jquery/dist/jquery.js responded 304 in 0.2950 ms
+2026-03-31 02:02:33.122 +01:00 [INF] HTTP GET /Identity/lib/bootstrap/dist/js/bootstrap.bundle.js responded 304 in 0.5086 ms
+2026-03-31 02:02:33.123 +01:00 [INF] HTTP GET /Identity/js/site.js responded 304 in 0.4407 ms
+2026-03-31 02:02:33.123 +01:00 [INF] HTTP GET /Identity/lib/jquery-validation/dist/jquery.validate.js responded 304 in 0.2478 ms
+2026-03-31 02:02:33.123 +01:00 [INF] HTTP GET /Identity/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js responded 304 in 0.1794 ms
+2026-03-31 02:02:48.288 +01:00 [INF] HTTP POST /Identity/Account/Login responded 302 in 208.8001 ms
+2026-03-31 02:02:48.299 +01:00 [INF] Home page visited
+2026-03-31 02:02:48.304 +01:00 [INF] HTTP GET / responded 200 in 5.3832 ms
+2026-03-31 02:02:48.358 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 0.8146 ms
+2026-03-31 02:02:48.363 +01:00 [INF] HTTP GET /css/site.css responded 304 in 0.5284 ms
+2026-03-31 02:02:48.363 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 0.4418 ms
+2026-03-31 02:02:48.364 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.4892 ms
+2026-03-31 02:02:48.364 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 1.2674 ms
+2026-03-31 02:02:48.364 +01:00 [INF] HTTP GET /js/site.js responded 304 in 0.5928 ms
+2026-03-31 02:03:05.965 +01:00 [INF] HTTP GET /Inspections responded 200 in 10.5368 ms
+2026-03-31 02:03:06.014 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 0.5854 ms
+2026-03-31 02:03:06.018 +01:00 [INF] HTTP GET /css/site.css responded 304 in 0.9774 ms
+2026-03-31 02:03:06.018 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 0.6242 ms
+2026-03-31 02:03:06.020 +01:00 [INF] HTTP GET /js/site.js responded 304 in 1.3067 ms
+2026-03-31 02:03:06.020 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 1.7035 ms
+2026-03-31 02:03:06.021 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 3.5816 ms
+2026-03-31 02:03:11.093 +01:00 [INF] HTTP GET /FollowUps responded 200 in 6.4082 ms
+2026-03-31 02:03:11.140 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 0.6790 ms
+2026-03-31 02:03:11.150 +01:00 [INF] HTTP GET /css/site.css responded 304 in 0.8226 ms
+2026-03-31 02:03:11.151 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 0.9609 ms
+2026-03-31 02:03:11.151 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.6744 ms
+2026-03-31 02:03:11.151 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 1.7425 ms
+2026-03-31 02:03:11.154 +01:00 [INF] HTTP GET /js/site.js responded 304 in 2.6652 ms
+2026-03-31 02:03:14.591 +01:00 [INF] Dashboard loaded with filters. Town: All, RiskRating: All, UserName: inspector@foodsafety.local
+2026-03-31 02:03:14.608 +01:00 [INF] HTTP GET /Dashboard responded 200 in 17.6592 ms
+2026-03-31 02:03:14.652 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 1.0907 ms
+2026-03-31 02:03:14.663 +01:00 [INF] HTTP GET /css/site.css responded 304 in 0.7146 ms
+2026-03-31 02:03:14.664 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 0.7210 ms
+2026-03-31 02:03:14.665 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.8752 ms
+2026-03-31 02:03:14.665 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 1.9154 ms
+2026-03-31 02:03:14.669 +01:00 [INF] HTTP GET /js/site.js responded 304 in 4.1515 ms
+2026-03-31 02:03:24.259 +01:00 [INF] Dashboard loaded with filters. Town: All, RiskRating: All, UserName: inspector@foodsafety.local
+2026-03-31 02:03:24.271 +01:00 [INF] HTTP GET /Dashboard responded 200 in 13.0420 ms
+2026-03-31 02:03:24.313 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 0.6935 ms
+2026-03-31 02:03:24.323 +01:00 [INF] HTTP GET /css/site.css responded 304 in 0.6281 ms
+2026-03-31 02:03:24.323 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 0.5574 ms
+2026-03-31 02:03:24.325 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 2.4265 ms
+2026-03-31 02:03:24.325 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 1.9892 ms
+2026-03-31 02:03:24.326 +01:00 [INF] HTTP GET /js/site.js responded 304 in 2.1902 ms
+2026-03-31 02:03:26.315 +01:00 [INF] HTTP GET /Inspections responded 200 in 8.5707 ms
+2026-03-31 02:03:26.354 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 0.7744 ms
+2026-03-31 02:03:26.364 +01:00 [INF] HTTP GET /css/site.css responded 304 in 0.7082 ms
+2026-03-31 02:03:26.364 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 0.6139 ms
+2026-03-31 02:03:26.365 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 1.3450 ms
+2026-03-31 02:03:26.365 +01:00 [INF] HTTP GET /js/site.js responded 304 in 0.5707 ms
+2026-03-31 02:03:26.365 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.6316 ms
+2026-03-31 02:03:28.880 +01:00 [INF] HTTP GET /FollowUps responded 200 in 6.4135 ms
+2026-03-31 02:03:28.916 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 0.4668 ms
+2026-03-31 02:03:28.928 +01:00 [INF] HTTP GET /css/site.css responded 304 in 1.5920 ms
+2026-03-31 02:03:28.930 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.7505 ms
+2026-03-31 02:03:28.930 +01:00 [INF] HTTP GET /js/site.js responded 304 in 1.2099 ms
+2026-03-31 02:03:28.930 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 1.6170 ms
+2026-03-31 02:03:28.931 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 3.3219 ms
+2026-03-31 02:03:30.354 +01:00 [INF] Privacy page visited
+2026-03-31 02:03:30.356 +01:00 [INF] HTTP GET /Home/Privacy responded 200 in 2.5297 ms
+2026-03-31 02:03:30.398 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 0.6343 ms
+2026-03-31 02:03:30.401 +01:00 [INF] HTTP GET /css/site.css responded 304 in 0.6825 ms
+2026-03-31 02:03:30.401 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 0.6631 ms
+2026-03-31 02:03:30.402 +01:00 [INF] HTTP GET /js/site.js responded 304 in 0.4730 ms
+2026-03-31 02:03:30.402 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.7091 ms
+2026-03-31 02:03:30.403 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 2.0991 ms
+2026-03-31 02:03:35.604 +01:00 [INF] HTTP POST /Identity/Account/Logout responded 302 in 1.6540 ms
+2026-03-31 02:03:35.612 +01:00 [INF] Home page visited
+2026-03-31 02:03:35.615 +01:00 [INF] HTTP GET / responded 200 in 2.6685 ms
+2026-03-31 02:03:35.660 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 0.4198 ms
+2026-03-31 02:03:35.671 +01:00 [INF] HTTP GET /css/site.css responded 304 in 0.4508 ms
+2026-03-31 02:03:35.672 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 1.0325 ms
+2026-03-31 02:03:35.672 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.5467 ms
+2026-03-31 02:03:35.673 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 1.1757 ms
+2026-03-31 02:03:35.674 +01:00 [INF] HTTP GET /js/site.js responded 304 in 0.5806 ms
+2026-03-31 02:03:38.522 +01:00 [INF] HTTP GET /Identity/Account/Login responded 200 in 2.9341 ms
+2026-03-31 02:03:38.564 +01:00 [INF] HTTP GET /Identity/lib/bootstrap/dist/css/bootstrap.css responded 304 in 0.3297 ms
+2026-03-31 02:03:38.575 +01:00 [INF] HTTP GET /Identity/css/site.css responded 304 in 0.5034 ms
+2026-03-31 02:03:38.575 +01:00 [INF] HTTP GET /Identity/lib/jquery/dist/jquery.js responded 304 in 0.2884 ms
+2026-03-31 02:03:38.576 +01:00 [INF] HTTP GET /Identity/lib/bootstrap/dist/js/bootstrap.bundle.js responded 304 in 0.4794 ms
+2026-03-31 02:03:38.576 +01:00 [INF] HTTP GET /Identity/js/site.js responded 304 in 0.4622 ms
+2026-03-31 02:03:38.577 +01:00 [INF] HTTP GET /Identity/lib/jquery-validation/dist/jquery.validate.js responded 304 in 0.7030 ms
+2026-03-31 02:03:38.577 +01:00 [INF] HTTP GET /Identity/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js responded 304 in 0.8315 ms
+2026-03-31 02:03:43.000 +01:00 [INF] HTTP POST /Identity/Account/Login responded 302 in 176.2941 ms
+2026-03-31 02:03:43.008 +01:00 [INF] Home page visited
+2026-03-31 02:03:43.010 +01:00 [INF] HTTP GET / responded 200 in 2.1601 ms
+2026-03-31 02:03:43.054 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 0.7186 ms
+2026-03-31 02:03:43.064 +01:00 [INF] HTTP GET /css/site.css responded 304 in 0.6335 ms
+2026-03-31 02:03:43.065 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.4858 ms
+2026-03-31 02:03:43.065 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 0.6651 ms
+2026-03-31 02:03:43.065 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 1.5121 ms
+2026-03-31 02:03:43.065 +01:00 [INF] HTTP GET /js/site.js responded 304 in 0.4710 ms
+2026-03-31 02:03:46.089 +01:00 [INF] Dashboard loaded with filters. Town: All, RiskRating: All, UserName: admin@foodsafety.local
+2026-03-31 02:03:46.141 +01:00 [INF] HTTP GET /Dashboard responded 200 in 53.1977 ms
+2026-03-31 02:03:46.190 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 1.9299 ms
+2026-03-31 02:03:46.207 +01:00 [INF] HTTP GET /css/site.css responded 304 in 3.1564 ms
+2026-03-31 02:03:46.208 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 2.5559 ms
+2026-03-31 02:03:46.210 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 1.0584 ms
+2026-03-31 02:03:46.210 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 4.9483 ms
+2026-03-31 02:03:46.210 +01:00 [INF] HTTP GET /js/site.js responded 304 in 0.7390 ms
+2026-03-31 02:03:54.681 +01:00 [INF] HTTP GET /Premises responded 200 in 9.3075 ms
+2026-03-31 02:03:54.723 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 1.2527 ms
+2026-03-31 02:03:54.743 +01:00 [INF] HTTP GET /css/site.css responded 304 in 1.2883 ms
+2026-03-31 02:03:54.744 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 2.0775 ms
+2026-03-31 02:03:54.744 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.5487 ms
+2026-03-31 02:03:54.744 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 0.7073 ms
+2026-03-31 02:03:54.748 +01:00 [INF] HTTP GET /js/site.js responded 304 in 0.7550 ms
+2026-03-31 02:03:56.678 +01:00 [INF] HTTP GET /Inspections responded 200 in 8.0281 ms
+2026-03-31 02:03:56.718 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 0.9098 ms
+2026-03-31 02:03:56.729 +01:00 [INF] HTTP GET /css/site.css responded 304 in 0.7969 ms
+2026-03-31 02:03:56.731 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 1.3775 ms
+2026-03-31 02:03:56.732 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.8673 ms
+2026-03-31 02:03:56.732 +01:00 [INF] HTTP GET /js/site.js responded 304 in 0.6976 ms
+2026-03-31 02:03:56.732 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 3.7020 ms
+2026-03-31 02:03:57.670 +01:00 [INF] HTTP GET /FollowUps responded 200 in 12.7507 ms
+2026-03-31 02:03:57.715 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 0.5516 ms
+2026-03-31 02:03:57.723 +01:00 [INF] HTTP GET /css/site.css responded 304 in 1.0760 ms
+2026-03-31 02:03:57.724 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 1.1131 ms
+2026-03-31 02:03:57.724 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 1.7202 ms
+2026-03-31 02:03:57.725 +01:00 [INF] HTTP GET /js/site.js responded 304 in 0.8384 ms
+2026-03-31 02:03:57.725 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 1.0044 ms
+2026-03-31 02:04:06.509 +01:00 [INF] HTTP GET /Premises responded 200 in 6.5775 ms
+2026-03-31 02:04:06.547 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 0.6393 ms
+2026-03-31 02:04:06.558 +01:00 [INF] HTTP GET /css/site.css responded 304 in 0.8074 ms
+2026-03-31 02:04:06.560 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 1.4060 ms
+2026-03-31 02:04:06.560 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 2.2903 ms
+2026-03-31 02:04:06.561 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 2.5718 ms
+2026-03-31 02:04:06.561 +01:00 [INF] HTTP GET /js/site.js responded 304 in 0.9324 ms
+2026-03-31 02:04:09.135 +01:00 [INF] HTTP POST /Identity/Account/Logout responded 302 in 0.7680 ms
+2026-03-31 02:04:09.143 +01:00 [INF] Home page visited
+2026-03-31 02:04:09.145 +01:00 [INF] HTTP GET / responded 200 in 2.3307 ms
+2026-03-31 02:04:09.184 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 0.3745 ms
+2026-03-31 02:04:09.195 +01:00 [INF] HTTP GET /css/site.css responded 304 in 0.3741 ms
+2026-03-31 02:04:09.195 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 0.2108 ms
+2026-03-31 02:04:09.196 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 1.2584 ms
+2026-03-31 02:04:09.196 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.3851 ms
+2026-03-31 02:04:09.197 +01:00 [INF] HTTP GET /js/site.js responded 304 in 0.6883 ms
+2026-03-31 02:04:14.821 +01:00 [INF] HTTP GET /Identity/Account/Login responded 200 in 2.1257 ms
+2026-03-31 02:04:14.868 +01:00 [INF] HTTP GET /Identity/lib/bootstrap/dist/css/bootstrap.css responded 304 in 0.3337 ms
+2026-03-31 02:04:14.873 +01:00 [INF] HTTP GET /Identity/css/site.css responded 304 in 0.7458 ms
+2026-03-31 02:04:14.873 +01:00 [INF] HTTP GET /Identity/lib/jquery/dist/jquery.js responded 304 in 0.2788 ms
+2026-03-31 02:04:14.873 +01:00 [INF] HTTP GET /Identity/lib/bootstrap/dist/js/bootstrap.bundle.js responded 304 in 0.6105 ms
+2026-03-31 02:04:14.873 +01:00 [INF] HTTP GET /Identity/js/site.js responded 304 in 0.2511 ms
+2026-03-31 02:04:14.875 +01:00 [INF] HTTP GET /Identity/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js responded 304 in 0.4113 ms
+2026-03-31 02:04:14.876 +01:00 [INF] HTTP GET /Identity/lib/jquery-validation/dist/jquery.validate.js responded 304 in 2.1253 ms
+2026-03-31 02:04:29.936 +01:00 [INF] HTTP POST /Identity/Account/Login responded 302 in 97.3466 ms
+2026-03-31 02:04:29.944 +01:00 [INF] Home page visited
+2026-03-31 02:04:29.946 +01:00 [INF] HTTP GET / responded 200 in 2.0588 ms
+2026-03-31 02:04:29.997 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 0.6085 ms
+2026-03-31 02:04:30.002 +01:00 [INF] HTTP GET /css/site.css responded 304 in 0.4478 ms
+2026-03-31 02:04:30.003 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 0.6257 ms
+2026-03-31 02:04:30.004 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 2.2012 ms
+2026-03-31 02:04:30.004 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.8176 ms
+2026-03-31 02:04:30.006 +01:00 [INF] HTTP GET /js/site.js responded 304 in 0.8831 ms
+2026-03-31 02:04:37.658 +01:00 [INF] Dashboard loaded with filters. Town: All, RiskRating: All, UserName: viewer@foodsafety.local
+2026-03-31 02:04:37.670 +01:00 [INF] HTTP GET /Dashboard responded 200 in 12.9070 ms
+2026-03-31 02:04:37.711 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 0.4688 ms
+2026-03-31 02:04:37.716 +01:00 [INF] HTTP GET /css/site.css responded 304 in 0.6354 ms
+2026-03-31 02:04:37.716 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 1.1011 ms
+2026-03-31 02:04:37.716 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 0.7222 ms
+2026-03-31 02:04:37.716 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.4684 ms
+2026-03-31 02:04:37.718 +01:00 [INF] HTTP GET /js/site.js responded 304 in 0.6801 ms
+2026-03-31 02:05:08.730 +01:00 [INF] Dashboard loaded with filters. Town: All, RiskRating: All, UserName: viewer@foodsafety.local
+2026-03-31 02:05:08.777 +01:00 [INF] HTTP GET /Dashboard responded 200 in 47.8518 ms
+2026-03-31 02:05:08.818 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 0.6676 ms
+2026-03-31 02:05:08.827 +01:00 [INF] HTTP GET /css/site.css responded 304 in 0.7818 ms
+2026-03-31 02:05:08.828 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 1.1281 ms
+2026-03-31 02:05:08.829 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 2.0302 ms
+2026-03-31 02:05:08.830 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 1.0411 ms
+2026-03-31 02:05:08.831 +01:00 [INF] HTTP GET /js/site.js responded 304 in 0.9147 ms
+2026-03-31 02:05:11.222 +01:00 [INF] Privacy page visited
+2026-03-31 02:05:11.225 +01:00 [INF] HTTP GET /Home/Privacy responded 200 in 3.9508 ms
+2026-03-31 02:05:11.282 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 0.8456 ms
+2026-03-31 02:05:11.289 +01:00 [INF] HTTP GET /css/site.css responded 304 in 0.8053 ms
+2026-03-31 02:05:11.292 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 0.4631 ms
+2026-03-31 02:05:11.293 +01:00 [INF] HTTP GET /js/site.js responded 304 in 0.3470 ms
+2026-03-31 02:05:11.293 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.4930 ms
+2026-03-31 02:05:11.293 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 1.5205 ms
+2026-03-31 02:05:14.047 +01:00 [INF] Home page visited
+2026-03-31 02:05:14.048 +01:00 [INF] HTTP GET / responded 200 in 1.9622 ms
+2026-03-31 02:05:14.091 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 0.7064 ms
+2026-03-31 02:05:14.093 +01:00 [INF] HTTP GET /css/site.css responded 304 in 0.8615 ms
+2026-03-31 02:05:14.094 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 1.0512 ms
+2026-03-31 02:05:14.094 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 0.6795 ms
+2026-03-31 02:05:14.094 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.5062 ms
+2026-03-31 02:05:14.095 +01:00 [INF] HTTP GET /js/site.js responded 304 in 0.6483 ms
+2026-03-31 02:05:14.986 +01:00 [INF] Dashboard loaded with filters. Town: All, RiskRating: All, UserName: viewer@foodsafety.local
+2026-03-31 02:05:14.997 +01:00 [INF] HTTP GET /Dashboard responded 200 in 11.8291 ms
+2026-03-31 02:05:15.044 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 0.6269 ms
+2026-03-31 02:05:15.049 +01:00 [INF] HTTP GET /css/site.css responded 304 in 0.8102 ms
+2026-03-31 02:05:15.051 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 1.5549 ms
+2026-03-31 02:05:15.051 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 1.9588 ms
+2026-03-31 02:05:15.052 +01:00 [INF] HTTP GET /js/site.js responded 304 in 0.6967 ms
+2026-03-31 02:05:15.052 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.7493 ms
+2026-03-31 02:05:20.056 +01:00 [INF] HTTP POST /Identity/Account/Logout responded 302 in 1.6709 ms
+2026-03-31 02:05:20.063 +01:00 [INF] Home page visited
+2026-03-31 02:05:20.065 +01:00 [INF] HTTP GET / responded 200 in 1.8708 ms
+2026-03-31 02:05:20.099 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 0.2832 ms
+2026-03-31 02:05:20.103 +01:00 [INF] HTTP GET /css/site.css responded 304 in 0.6002 ms
+2026-03-31 02:05:20.104 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 0.2865 ms
+2026-03-31 02:05:20.104 +01:00 [INF] HTTP GET /js/site.js responded 304 in 0.2209 ms
+2026-03-31 02:05:20.104 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.4928 ms
+2026-03-31 02:05:20.105 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 1.5244 ms
+2026-03-31 02:05:22.317 +01:00 [INF] HTTP GET /Identity/Account/Login responded 200 in 2.0964 ms
+2026-03-31 02:05:22.359 +01:00 [INF] HTTP GET /Identity/lib/bootstrap/dist/css/bootstrap.css responded 304 in 0.2828 ms
+2026-03-31 02:05:22.364 +01:00 [INF] HTTP GET /Identity/css/site.css responded 304 in 0.3228 ms
+2026-03-31 02:05:22.365 +01:00 [INF] HTTP GET /Identity/lib/jquery/dist/jquery.js responded 304 in 0.3004 ms
+2026-03-31 02:05:22.365 +01:00 [INF] HTTP GET /Identity/lib/bootstrap/dist/js/bootstrap.bundle.js responded 304 in 0.2733 ms
+2026-03-31 02:05:22.366 +01:00 [INF] HTTP GET /Identity/js/site.js responded 304 in 0.6594 ms
+2026-03-31 02:05:22.366 +01:00 [INF] HTTP GET /Identity/lib/jquery-validation/dist/jquery.validate.js responded 304 in 0.6622 ms
+2026-03-31 02:05:22.368 +01:00 [INF] HTTP GET /Identity/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js responded 304 in 1.8033 ms
+2026-03-31 02:05:27.648 +01:00 [INF] HTTP POST /Identity/Account/Login responded 302 in 118.2879 ms
+2026-03-31 02:05:27.659 +01:00 [INF] Home page visited
+2026-03-31 02:05:27.661 +01:00 [INF] HTTP GET / responded 200 in 3.3673 ms
+2026-03-31 02:05:27.710 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 0.6668 ms
+2026-03-31 02:05:27.720 +01:00 [INF] HTTP GET /css/site.css responded 304 in 0.6984 ms
+2026-03-31 02:05:27.720 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 0.4396 ms
+2026-03-31 02:05:27.721 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 1.0892 ms
+2026-03-31 02:05:27.721 +01:00 [INF] HTTP GET /js/site.js responded 304 in 0.3877 ms
+2026-03-31 02:05:27.721 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.5633 ms
+2026-03-31 02:05:30.656 +01:00 [INF] Dashboard loaded with filters. Town: All, RiskRating: All, UserName: inspector@foodsafety.local
+2026-03-31 02:05:30.667 +01:00 [INF] HTTP GET /Dashboard responded 200 in 11.9386 ms
+2026-03-31 02:05:30.702 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 0.5112 ms
+2026-03-31 02:05:30.714 +01:00 [INF] HTTP GET /css/site.css responded 304 in 1.5742 ms
+2026-03-31 02:05:30.715 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.5839 ms
+2026-03-31 02:05:30.715 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 0.9489 ms
+2026-03-31 02:05:30.716 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 2.1879 ms
+2026-03-31 02:05:30.716 +01:00 [INF] HTTP GET /js/site.js responded 304 in 0.9446 ms
+2026-03-31 02:05:31.865 +01:00 [INF] HTTP GET /Inspections responded 200 in 8.1087 ms
+2026-03-31 02:05:31.930 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 0.7717 ms
+2026-03-31 02:05:31.943 +01:00 [INF] HTTP GET /css/site.css responded 304 in 0.7941 ms
+2026-03-31 02:05:31.945 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 2.0904 ms
+2026-03-31 02:05:31.947 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 1.3038 ms
+2026-03-31 02:05:31.947 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.8854 ms
+2026-03-31 02:05:31.948 +01:00 [INF] HTTP GET /js/site.js responded 304 in 1.0561 ms
+2026-03-31 02:05:33.651 +01:00 [INF] HTTP GET /FollowUps responded 200 in 7.8295 ms
+2026-03-31 02:05:33.686 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 0.4372 ms
+2026-03-31 02:05:33.697 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 1.1767 ms
+2026-03-31 02:05:33.697 +01:00 [INF] HTTP GET /css/site.css responded 304 in 2.4939 ms
+2026-03-31 02:05:33.698 +01:00 [INF] HTTP GET /js/site.js responded 304 in 0.3990 ms
+2026-03-31 02:05:33.698 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.5947 ms
+2026-03-31 02:05:33.698 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 2.9545 ms
+2026-03-31 02:05:35.596 +01:00 [INF] HTTP GET /Identity/Account/Manage responded 200 in 6.0613 ms
+2026-03-31 02:05:35.635 +01:00 [INF] HTTP GET /Identity/lib/bootstrap/dist/css/bootstrap.css responded 304 in 0.6786 ms
+2026-03-31 02:05:35.645 +01:00 [INF] HTTP GET /Identity/css/site.css responded 304 in 0.7562 ms
+2026-03-31 02:05:35.646 +01:00 [INF] HTTP GET /Identity/lib/jquery/dist/jquery.js responded 304 in 0.7538 ms
+2026-03-31 02:05:35.646 +01:00 [INF] HTTP GET /Identity/lib/bootstrap/dist/js/bootstrap.bundle.js responded 304 in 0.5471 ms
+2026-03-31 02:05:35.647 +01:00 [INF] HTTP GET /Identity/js/site.js responded 304 in 0.5467 ms
+2026-03-31 02:05:35.647 +01:00 [INF] HTTP GET /Identity/lib/jquery-validation/dist/jquery.validate.js responded 304 in 0.4900 ms
+2026-03-31 02:05:35.647 +01:00 [INF] HTTP GET /Identity/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js responded 304 in 0.4202 ms
+2026-03-31 02:05:39.945 +01:00 [INF] HTTP POST /Identity/Account/Logout responded 302 in 1.0116 ms
+2026-03-31 02:05:39.954 +01:00 [INF] Home page visited
+2026-03-31 02:05:39.956 +01:00 [INF] HTTP GET / responded 200 in 1.9804 ms
+2026-03-31 02:05:40.005 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 0.4175 ms
+2026-03-31 02:05:40.007 +01:00 [INF] HTTP GET /css/site.css responded 304 in 0.9780 ms
+2026-03-31 02:05:40.009 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.4008 ms
+2026-03-31 02:05:40.009 +01:00 [INF] HTTP GET /js/site.js responded 304 in 0.2953 ms
+2026-03-31 02:05:40.009 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 0.4478 ms
+2026-03-31 02:05:40.009 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 0.8731 ms
+2026-03-31 02:05:43.470 +01:00 [INF] HTTP GET /Identity/Account/Login responded 200 in 1.9367 ms
+2026-03-31 02:05:43.535 +01:00 [INF] HTTP GET /Identity/lib/bootstrap/dist/css/bootstrap.css responded 304 in 0.4184 ms
+2026-03-31 02:05:43.537 +01:00 [INF] HTTP GET /Identity/css/site.css responded 304 in 0.6810 ms
+2026-03-31 02:05:43.538 +01:00 [INF] HTTP GET /Identity/lib/bootstrap/dist/js/bootstrap.bundle.js responded 304 in 0.2946 ms
+2026-03-31 02:05:43.538 +01:00 [INF] HTTP GET /Identity/lib/jquery/dist/jquery.js responded 304 in 0.5060 ms
+2026-03-31 02:05:43.538 +01:00 [INF] HTTP GET /Identity/js/site.js responded 304 in 0.4755 ms
+2026-03-31 02:05:43.538 +01:00 [INF] HTTP GET /Identity/lib/jquery-validation/dist/jquery.validate.js responded 304 in 0.3127 ms
+2026-03-31 02:05:43.541 +01:00 [INF] HTTP GET /Identity/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js responded 304 in 0.4425 ms
+2026-03-31 02:05:46.787 +01:00 [INF] HTTP POST /Identity/Account/Login responded 302 in 94.7167 ms
+2026-03-31 02:05:46.797 +01:00 [INF] Home page visited
+2026-03-31 02:05:46.799 +01:00 [INF] HTTP GET / responded 200 in 2.2612 ms
+2026-03-31 02:05:46.869 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 0.6390 ms
+2026-03-31 02:05:46.869 +01:00 [INF] HTTP GET /css/site.css responded 304 in 0.6419 ms
+2026-03-31 02:05:46.880 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 1.2303 ms
+2026-03-31 02:05:46.881 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 2.2578 ms
+2026-03-31 02:05:46.881 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 2.0514 ms
+2026-03-31 02:05:46.882 +01:00 [INF] HTTP GET /js/site.js responded 304 in 2.2078 ms
+2026-03-31 02:05:49.119 +01:00 [INF] HTTP GET /Inspections responded 200 in 7.1198 ms
+2026-03-31 02:05:49.199 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 0.5412 ms
+2026-03-31 02:05:49.203 +01:00 [INF] HTTP GET /css/site.css responded 304 in 1.3941 ms
+2026-03-31 02:05:49.204 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 0.9161 ms
+2026-03-31 02:05:49.204 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.6587 ms
+2026-03-31 02:05:49.204 +01:00 [INF] HTTP GET /js/site.js responded 304 in 0.5296 ms
+2026-03-31 02:05:49.204 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 1.6618 ms
+2026-03-31 02:05:50.620 +01:00 [INF] HTTP GET /FollowUps responded 200 in 3.7301 ms
+2026-03-31 02:05:50.679 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 2.3595 ms
+2026-03-31 02:05:50.681 +01:00 [INF] HTTP GET /css/site.css responded 304 in 0.6044 ms
+2026-03-31 02:05:50.681 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 0.5889 ms
+2026-03-31 02:05:50.682 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.9358 ms
+2026-03-31 02:05:50.683 +01:00 [INF] HTTP GET /js/site.js responded 304 in 0.6675 ms
+2026-03-31 02:05:50.683 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 2.2701 ms
+2026-03-31 02:05:52.256 +01:00 [INF] HTTP GET /Premises responded 200 in 8.6872 ms
+2026-03-31 02:05:52.315 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 1.0044 ms
+2026-03-31 02:05:52.316 +01:00 [INF] HTTP GET /css/site.css responded 304 in 1.1664 ms
+2026-03-31 02:05:52.317 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 1.3050 ms
+2026-03-31 02:05:52.317 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.4554 ms
+2026-03-31 02:05:52.317 +01:00 [INF] HTTP GET /js/site.js responded 304 in 0.4554 ms
+2026-03-31 02:05:52.318 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 1.8533 ms
+2026-03-31 02:05:53.455 +01:00 [INF] Dashboard loaded with filters. Town: All, RiskRating: All, UserName: admin@foodsafety.local
+2026-03-31 02:05:53.511 +01:00 [INF] HTTP GET /Dashboard responded 200 in 57.6245 ms
+2026-03-31 02:05:53.563 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 1.0398 ms
+2026-03-31 02:05:53.567 +01:00 [INF] HTTP GET /css/site.css responded 304 in 1.1357 ms
+2026-03-31 02:05:53.568 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 0.9572 ms
+2026-03-31 02:05:53.569 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.6599 ms
+2026-03-31 02:05:53.569 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 1.9277 ms
+2026-03-31 02:05:53.569 +01:00 [INF] HTTP GET /js/site.js responded 304 in 0.6918 ms
+2026-03-31 02:05:57.661 +01:00 [INF] HTTP POST /Identity/Account/Logout responded 302 in 0.9182 ms
+2026-03-31 02:05:57.672 +01:00 [INF] Home page visited
+2026-03-31 02:05:57.674 +01:00 [INF] HTTP GET / responded 200 in 2.1519 ms
+2026-03-31 02:05:57.724 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 0.5971 ms
+2026-03-31 02:05:57.724 +01:00 [INF] HTTP GET /css/site.css responded 304 in 0.6355 ms
+2026-03-31 02:05:57.726 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.4942 ms
+2026-03-31 02:05:57.727 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 0.9667 ms
+2026-03-31 02:05:57.727 +01:00 [INF] HTTP GET /FoodSafetyInspectionTracker.styles.css responded 200 in 1.6078 ms
+2026-03-31 02:05:57.727 +01:00 [INF] HTTP GET /js/site.js responded 304 in 0.9185 ms
